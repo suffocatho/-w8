@@ -15,5 +15,6 @@ int main(int argc, char *argv[]) {
 	for(i=0;i<N;i++) {
 		if(tab[i]>0) printf("tab[%d]=%d\n",i,tab[i]);
 	}		
+	getch();
 	return 0;
 }
